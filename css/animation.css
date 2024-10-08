@@ -1,0 +1,58 @@
+.navbar_logo{
+    transform: translateY(-100px);
+    opacity: 0;
+    animation: logo .5s forwards;
+}
+@keyframes logo {
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+.nav_iteams{
+    transform: translateY(-100px);
+    opacity: 0;
+    animation: iteams .5s forwards;
+}
+@keyframes iteams  {
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+.navbar>button{
+    transform: translateY(-100px);
+    opacity: 0;
+    animation: icons .5s forwards;
+}
+@keyframes icons{
+    to{
+        transform: translateY(0);
+        opacity: 1; 
+    }
+}
+.hero_text{
+    transform: translateX(-650px);
+    opacity: 0;
+    animation: hero_text .8s  ease-in-out forwards;
+} 
+@keyframes hero_text {
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    
+}
+.hero_img{
+    transform: translateX(650px);
+    opacity: 0;
+    animation: hero_img .8s  ease-in-out forwards;
+}
+@keyframes hero_img {
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
